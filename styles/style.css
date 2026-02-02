@@ -1,8 +1,31 @@
+@font-face {
+  font-family: "SavedState";
+  src: url("/assets/fonts/851Gkktt_005.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   min-height: 100vh;
   background: radial-gradient(circle at 50% 50%, #0c073a 31.16%, #000 100%);
 }
 
 h1 {
+  font-family: "SavedState";
   color: white;
+}
+
+h3 {
+  font-family: "SavedState";
+  color: white;
+}
+
+#start-btn {
+  color: white;
+  border-radius: 20px;
+  border-color: white;
+  background-color: transparent;
+  align-items: center;
+  font-family: "SavedState";
 }
